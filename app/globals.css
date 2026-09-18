@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f7f9fc;
+  --surface: #ffffff;
+  --ink: #0e1420;
+  --muted: #5b6478;
+  --border: #e2e6ee;
+  --signal: #0f9e96;
+  --amber: #b4690e;
+}
+
+.dark {
+  --paper: #0b1120;
+  --surface: #131b2e;
+  --ink: #e7ecf5;
+  --muted: #8792a8;
+  --border: #232d42;
+  --signal: #4fd1c5;
+  --amber: #f5a623;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
