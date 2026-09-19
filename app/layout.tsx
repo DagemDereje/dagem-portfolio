@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     title: `${SITE_NAME} — Data Scientist`,
     description: SITE_TAGLINE,
   },
+     verification: {
+     google: "fWAcNH-9PYQY7US4iv_71AdoYZICVtxhBl9KajL-h8I",
+   },
 };
 
 // Site-wide structured data. Only real, verifiable facts — nothing here
@@ -106,3 +109,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
