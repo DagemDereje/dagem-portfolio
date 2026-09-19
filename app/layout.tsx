@@ -54,8 +54,11 @@ export const metadata: Metadata = {
     description: SITE_TAGLINE,
   },
      verification: {
-     google: "fWAcNH-9PYQY7US4iv_71AdoYZICVtxhBl9KajL-h8I",
-   },
+  google: "fWAcNH-9PYQY7US4iv_71AdoYZICVtxhBl9KajL-h8I",
+  other: {
+    "msvalidate.01": "F265E1F8E77FC2BDCA9C08C930370D61",
+  },
+},
 };
 
 // Site-wide structured data. Only real, verifiable facts — nothing here
