@@ -8,4 +8,6 @@ export const SITE_URL =
 export const SITE_NAME = "Dagem Dereje";
 export const SITE_TAGLINE =
   "Data Scientist specializing in Machine Learning, AI, and data-driven solutions.";
+export const SITE_DESCRIPTION =
+  "Portfolio of Dagem Dereje, a Data Scientist specializing in Machine Learning, AI, and data-driven solutions — explore real, deployed projects and interactive demos.";
 export const GITHUB_URL = "https://github.com/DagemDereje";
