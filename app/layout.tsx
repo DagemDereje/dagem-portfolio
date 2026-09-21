@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { SITE_URL, SITE_NAME, SITE_TAGLINE, GITHUB_URL } from "@/lib/site";
+   import { SITE_URL, SITE_NAME, SITE_TAGLINE, SITE_DESCRIPTION, GITHUB_URL } from "@/lib/site";
 import "./globals.css";
 
 // Self-hosted via the @fontsource/* packages (installed as regular npm
@@ -35,23 +35,23 @@ const mono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Data Scientist`,
+    default: `${SITE_NAME} — Data Scientist Portfolio`,
     template: `%s — ${SITE_NAME}`,
   },
-  description: SITE_TAGLINE,
+  description: SITE_DESCRIPTION,
   authors: [{ name: SITE_NAME, url: SITE_URL }],
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Data Scientist`,
-    description: SITE_TAGLINE,
+    title: `${SITE_NAME} — Data Scientist Portfolio`,
+    description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Data Scientist`,
-    description: SITE_TAGLINE,
+    title: `${SITE_NAME} — Data Scientist Portfolio`,
+    description: SITE_DESCRIPTION,
   },
      verification: {
   google: "fWAcNH-9PYQY7US4iv_71AdoYZICVtxhBl9KajL-h8I",
