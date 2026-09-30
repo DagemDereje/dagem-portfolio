@@ -84,7 +84,7 @@ const coreInitScript = `
   try {
     // 1. Theme Configuration
     var stored = localStorage.getItem('theme');
-    var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var theme = stored || 'dark';
     if (theme === 'dark') document.documentElement.classList.add('dark');
     
     // 2. Browser Reload Interception & Home Redirection
